@@ -1,28 +1,3 @@
-"""
-Exercise: Pattern Tracker
-=========================
-
-Given a string text, count the number of times two consecutive digits
-appear where the second digit is exactly 1 more than the first.
-
-Examples:
----------
-Input:  "12a34"
-Output: 2
-
-Input:  "1234"
-Output: 3
-
-Input:  "9087"
-Output: 0
-
-Constraints:
-------------
-- The string may contain any characters (letters, digits, symbols).
-- Only digit-digit pairs are considered.
-"""
-
-
 def pattern_tracker(text: str) -> int:
 
     count = 0

@@ -1,35 +1,3 @@
-"""
-Exercise: Convert Base
-======================
-
-Given a number n represented as a string in base base_from, convert it
-and return its representation as a string in base base_to.
-
-- Supports bases from 2 to 36.
-- For bases above 10, use uppercase letters: A=10, B=11, ..., Z=35.
-- The input may include a leading '-' for negative numbers.
-
-Examples:
----------
-Input:  n = "1010", base_from = 2, base_to = 10
-Output: "10"
-
-Input:  n = "255", base_from = 10, base_to = 16
-Output: "FF"
-
-Input:  n = "Z", base_from = 36, base_to = 10
-Output: "35"
-
-Input:  n = "-11", base_from = 2, base_to = 10
-Output: "-3"
-
-Constraints:
-------------
-- 2 <= base_from, base_to <= 36
-- n is a valid number in base_from (may start with '-')
-"""
-
-
 def convert_base(n: str, base_from: int, base_to: int) -> str:
 
     try:
